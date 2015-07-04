@@ -1,0 +1,18 @@
+﻿Build started 5/5/2015 1:41:41 AM.
+     1>Project "C:\Users\LoVeYiLa98\Desktop\LetterSearching\LetterSearching\LetterSearching.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\loveyila98\desktop\lettersearching\lettersearching\main.cpp(18): warning C4273: 'rand' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(534) : see previous definition of 'rand'
+     1>c:\users\loveyila98\desktop\lettersearching\lettersearching\main.cpp(59): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LoVeYiLa98\Desktop\LetterSearching\Debug\LetterSearching.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LoVeYiLa98\Desktop\LetterSearching\Debug\LetterSearching.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LoVeYiLa98\Desktop\LetterSearching\Debug\LetterSearching.lib" /MACHINE:X86 Debug\LetterSearching.res
+         Debug\main.obj
+         LetterSearching.vcxproj -> C:\Users\LoVeYiLa98\Desktop\LetterSearching\Debug\LetterSearching.exe
+     1>Done Building Project "C:\Users\LoVeYiLa98\Desktop\LetterSearching\LetterSearching\LetterSearching.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72
